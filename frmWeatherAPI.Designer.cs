@@ -50,6 +50,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtWind = new System.Windows.Forms.TextBox();
             this.txtClouds = new System.Windows.Forms.TextBox();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnXML
@@ -248,11 +249,24 @@
             this.txtClouds.Size = new System.Drawing.Size(161, 20);
             this.txtClouds.TabIndex = 21;
             // 
-            // Form1
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnClose.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.Color.Red;
+            this.btnClose.Location = new System.Drawing.Point(357, 607);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(118, 33);
+            this.btnClose.TabIndex = 22;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = false;
+            // 
+            // frmWeatherAPI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(513, 632);
+            this.ClientSize = new System.Drawing.Size(513, 652);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.txtClouds);
             this.Controls.Add(this.txtWind);
             this.Controls.Add(this.label10);
@@ -275,7 +289,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnJSON);
             this.Controls.Add(this.btnXML);
-            this.Name = "Form1";
+            this.Name = "frmWeatherAPI";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -306,6 +320,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtWind;
         private System.Windows.Forms.TextBox txtClouds;
+        private System.Windows.Forms.Button btnClose;
     }
 }
 
