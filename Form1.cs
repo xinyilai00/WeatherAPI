@@ -16,5 +16,15 @@ namespace WeatherAPI
         {
             InitializeComponent();
         }
+
+        private void btnXML_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnJSON_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
