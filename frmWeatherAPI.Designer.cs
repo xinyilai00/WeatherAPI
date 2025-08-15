@@ -1,6 +1,6 @@
 ﻿namespace WeatherAPI
 {
-    partial class Form1
+    partial class frmWeatherAPI
     {
         /// <summary>
         /// Required designer variable.
@@ -87,7 +87,6 @@
             this.label1.Size = new System.Drawing.Size(31, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "City";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtZip
             // 
@@ -122,7 +121,6 @@
             this.label3.Size = new System.Drawing.Size(71, 17);
             this.label3.TabIndex = 6;
             this.label3.Text = "Longitude";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -133,7 +131,6 @@
             this.label4.Size = new System.Drawing.Size(59, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "Latitude";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtLatitude
             // 

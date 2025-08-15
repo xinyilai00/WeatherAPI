@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WeatherAPI
 {
-    public partial class Form1 : Form
+    public partial class frmWeatherAPI : Form
     {
-        public Form1()
+        public frmWeatherAPI()
         {
             InitializeComponent();
         }
@@ -23,21 +23,6 @@ namespace WeatherAPI
         }
 
         private void btnJSON_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
         {
 
         }
