@@ -58,7 +58,7 @@
             this.btnXML.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnXML.Font = new System.Drawing.Font("Modern No. 20", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXML.ForeColor = System.Drawing.Color.Purple;
-            this.btnXML.Location = new System.Drawing.Point(132, 36);
+            this.btnXML.Location = new System.Drawing.Point(142, 446);
             this.btnXML.Name = "btnXML";
             this.btnXML.Size = new System.Drawing.Size(225, 58);
             this.btnXML.TabIndex = 0;
@@ -71,7 +71,7 @@
             this.btnJSON.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnJSON.Font = new System.Drawing.Font("Modern No. 20", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJSON.ForeColor = System.Drawing.Color.Purple;
-            this.btnJSON.Location = new System.Drawing.Point(132, 109);
+            this.btnJSON.Location = new System.Drawing.Point(142, 519);
             this.btnJSON.Name = "btnJSON";
             this.btnJSON.Size = new System.Drawing.Size(225, 59);
             this.btnJSON.TabIndex = 1;
@@ -82,177 +82,205 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(88, 294);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(76, 121);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 17);
+            this.label1.Size = new System.Drawing.Size(40, 17);
             this.label1.TabIndex = 2;
-            this.label1.Text = "City";
+            this.label1.Text = "City:";
             // 
             // txtZip
             // 
-            this.txtZip.Location = new System.Drawing.Point(91, 243);
+            this.txtZip.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtZip.Location = new System.Drawing.Point(79, 70);
             this.txtZip.Name = "txtZip";
-            this.txtZip.Size = new System.Drawing.Size(359, 20);
+            this.txtZip.Size = new System.Drawing.Size(359, 38);
             this.txtZip.TabIndex = 3;
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(91, 328);
+            this.txtCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCity.Location = new System.Drawing.Point(79, 155);
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(359, 20);
+            this.txtCity.ReadOnly = true;
+            this.txtCity.Size = new System.Drawing.Size(359, 38);
             this.txtCity.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(88, 214);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label2.Location = new System.Drawing.Point(76, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 17);
+            this.label2.Size = new System.Drawing.Size(136, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Enter a Zip Code:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(286, 367);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(274, 284);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 17);
+            this.label3.Size = new System.Drawing.Size(85, 17);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Longitude";
+            this.label3.Text = "Longitude:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(88, 367);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label4.Location = new System.Drawing.Point(76, 284);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 17);
+            this.label4.Size = new System.Drawing.Size(72, 17);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Latitude";
+            this.label4.Text = "Latitude:";
             // 
             // txtLatitude
             // 
-            this.txtLatitude.Location = new System.Drawing.Point(91, 397);
+            this.txtLatitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLatitude.Location = new System.Drawing.Point(79, 314);
             this.txtLatitude.Name = "txtLatitude";
-            this.txtLatitude.Size = new System.Drawing.Size(161, 20);
+            this.txtLatitude.ReadOnly = true;
+            this.txtLatitude.Size = new System.Drawing.Size(161, 23);
             this.txtLatitude.TabIndex = 8;
             // 
             // txtLongitude
             // 
-            this.txtLongitude.Location = new System.Drawing.Point(289, 397);
+            this.txtLongitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLongitude.Location = new System.Drawing.Point(277, 314);
             this.txtLongitude.Name = "txtLongitude";
-            this.txtLongitude.Size = new System.Drawing.Size(161, 20);
+            this.txtLongitude.ReadOnly = true;
+            this.txtLongitude.Size = new System.Drawing.Size(161, 23);
             this.txtLongitude.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(88, 445);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label5.Location = new System.Drawing.Point(73, 209);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 17);
+            this.label5.Size = new System.Drawing.Size(106, 17);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Temperature";
+            this.label5.Text = "Temperature:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(203, 445);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label6.Location = new System.Drawing.Point(188, 209);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(33, 17);
+            this.label6.Size = new System.Drawing.Size(41, 17);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Low";
+            this.label6.Text = "Low:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(280, 445);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label7.Location = new System.Drawing.Point(265, 209);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 17);
+            this.label7.Size = new System.Drawing.Size(46, 17);
             this.label7.TabIndex = 12;
-            this.label7.Text = "High";
+            this.label7.Text = "High:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(369, 445);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label8.Location = new System.Drawing.Point(354, 209);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 17);
+            this.label8.Size = new System.Drawing.Size(82, 17);
             this.label8.TabIndex = 13;
-            this.label8.Text = "Feels like";
+            this.label8.Text = "Feels like:";
             // 
             // txtTemperature
             // 
-            this.txtTemperature.Location = new System.Drawing.Point(91, 474);
+            this.txtTemperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTemperature.Location = new System.Drawing.Point(80, 238);
             this.txtTemperature.Name = "txtTemperature";
-            this.txtTemperature.Size = new System.Drawing.Size(87, 20);
+            this.txtTemperature.ReadOnly = true;
+            this.txtTemperature.Size = new System.Drawing.Size(87, 23);
             this.txtTemperature.TabIndex = 14;
             // 
             // txtLow
             // 
-            this.txtLow.Location = new System.Drawing.Point(206, 474);
+            this.txtLow.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLow.Location = new System.Drawing.Point(195, 238);
             this.txtLow.Name = "txtLow";
-            this.txtLow.Size = new System.Drawing.Size(58, 20);
+            this.txtLow.ReadOnly = true;
+            this.txtLow.Size = new System.Drawing.Size(58, 23);
             this.txtLow.TabIndex = 15;
             // 
             // txtHigh
             // 
-            this.txtHigh.Location = new System.Drawing.Point(283, 474);
+            this.txtHigh.Location = new System.Drawing.Point(272, 238);
             this.txtHigh.Name = "txtHigh";
+            this.txtHigh.ReadOnly = true;
             this.txtHigh.Size = new System.Drawing.Size(63, 20);
             this.txtHigh.TabIndex = 16;
             // 
             // txtFeelsLike
             // 
-            this.txtFeelsLike.Location = new System.Drawing.Point(372, 474);
+            this.txtFeelsLike.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFeelsLike.Location = new System.Drawing.Point(361, 238);
             this.txtFeelsLike.Name = "txtFeelsLike";
-            this.txtFeelsLike.Size = new System.Drawing.Size(78, 20);
+            this.txtFeelsLike.ReadOnly = true;
+            this.txtFeelsLike.Size = new System.Drawing.Size(78, 23);
             this.txtFeelsLike.TabIndex = 17;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(88, 532);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label9.Location = new System.Drawing.Point(76, 359);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(40, 17);
+            this.label9.Size = new System.Drawing.Size(49, 17);
             this.label9.TabIndex = 18;
-            this.label9.Text = "Wind";
+            this.label9.Text = "Wind:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(286, 532);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.label10.Location = new System.Drawing.Point(274, 359);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 17);
+            this.label10.Size = new System.Drawing.Size(62, 17);
             this.label10.TabIndex = 19;
-            this.label10.Text = "Clouds";
+            this.label10.Text = "Clouds:";
             // 
             // txtWind
             // 
-            this.txtWind.Location = new System.Drawing.Point(91, 561);
+            this.txtWind.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWind.Location = new System.Drawing.Point(79, 388);
             this.txtWind.Name = "txtWind";
-            this.txtWind.Size = new System.Drawing.Size(161, 20);
+            this.txtWind.ReadOnly = true;
+            this.txtWind.Size = new System.Drawing.Size(161, 23);
             this.txtWind.TabIndex = 20;
             // 
             // txtClouds
             // 
-            this.txtClouds.Location = new System.Drawing.Point(289, 561);
+            this.txtClouds.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtClouds.Location = new System.Drawing.Point(277, 388);
             this.txtClouds.Name = "txtClouds";
-            this.txtClouds.Size = new System.Drawing.Size(161, 20);
+            this.txtClouds.ReadOnly = true;
+            this.txtClouds.Size = new System.Drawing.Size(161, 23);
             this.txtClouds.TabIndex = 21;
             // 
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnClose.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Font = new System.Drawing.Font("Modern No. 20", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.Red;
             this.btnClose.Location = new System.Drawing.Point(357, 607);
             this.btnClose.Name = "btnClose";
@@ -260,12 +288,14 @@
             this.btnClose.TabIndex = 22;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmWeatherAPI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(513, 652);
+            this.BackColor = System.Drawing.Color.LightCyan;
+            this.ClientSize = new System.Drawing.Size(498, 652);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.txtClouds);
             this.Controls.Add(this.txtWind);
@@ -290,7 +320,8 @@
             this.Controls.Add(this.btnJSON);
             this.Controls.Add(this.btnXML);
             this.Name = "frmWeatherAPI";
-            this.Text = "Form1";
+            this.Text = "WeatherAPI";
+            this.Load += new System.EventHandler(this.frmWeatherAPI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
